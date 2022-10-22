@@ -1,0 +1,14 @@
+[debug] [2022-10-20T16:19:58.042Z] ----------------------------------------------------------------------
+[debug] [2022-10-20T16:19:58.043Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only functions
+[debug] [2022-10-20T16:19:58.044Z] CLI Version:   11.8.1
+[debug] [2022-10-20T16:19:58.044Z] Platform:      linux
+[debug] [2022-10-20T16:19:58.044Z] Node Version:  v16.17.1
+[debug] [2022-10-20T16:19:58.044Z] Time:          Thu Oct 20 2022 12:19:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-10-20T16:19:58.044Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-20T16:19:58.095Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-20T16:19:58.095Z] > authorizing via signed-in user (danikhan632@gmail.com)
+[debug] [2022-10-20T16:19:58.095Z] [iam] checking project cleanup-2f4e8 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2022-10-20T16:19:58.097Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cleanup-2f4e8:testIamPermissions [none]
+[debug] [2022-10-20T16:19:58.098Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cleanup-2f4e8:testIamPermissions x-goog-quota-user=projects/cleanup-2f4e8
+[debug] [2022-10-20T16:19:58.098Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cleanup-2f4e8:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
